@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Pavan Kumar Vaitheeswaran</title>
+    <title>Sai Prabhakar</title>
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/other.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <div class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="index.html">Pavan Kumar</a>
+          <a class="brand" href="index.html">Sai Prabhakar</a>
           <ul class="nav" id="mainTabs">
             <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
             <li class="active"><a href="projects.html"><i class="icon-cog icon-white"></i> Projects</a></li>
