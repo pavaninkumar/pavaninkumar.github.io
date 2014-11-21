@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Sai Prabhakar</title>
+    <title>Pavan Kumar Vaitheeswaran</title>
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/other.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <div class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="index.html">Sai Prabhakar</a>
+          <a class="brand" href="index.html">Pavan Kumar</a>
           <ul class="nav" id="mainTabs">
             <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
             <li><a href="projects.html"><i class="icon-cog icon-white"></i> Projects</a></li>
@@ -79,26 +79,25 @@
 <!--              </div>-->
 <!--            </div>-->
 		<div class="span5">
-		      <h3>Sai Prabhakar</h3>
+		      <h3>Pavan Kumar Vaitheeswaran</h3>
 		      <p>
-		        B.tech, Final Year<br>
+		        B.Tech, Final Year<br>
 		        Mechanical Engineering<br>
 		        <a href="http://www.iitm.ac.in/" target="_blank">Indian Institute of Technology Madras</a><br><br>
 		        <strong><th><i class="icon-home"></i>Address:</th></strong><br>
-		        150, Tapti Hostel<br>
+		        149, Tapti Hostel<br>
 		        Indian Institute of Technology Madras<br>
 		        Chennai- 600036<br>
 		        Tamil Nadu<br>
 		        India<br>
 		        </p>  
-
+			<tr>
 	       	        <td><span style="font-size: 20px;" class="icon-envelope"></span> &nbsp; </td>
-                        <td><a href="mailto:aps.prabhakar@gmail.com" target="_blank"><input class="form-control" style="color:blue; -user-select: none; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -ms-user-select:none; -moz-user-select: none;" value="aps.prabhakar [at] gmail [dot] com" readonly="disabled" type="text" /></a></td></tr><br>
+                        <td><a href="mailto:pavaninkumar@gmail.com" target="_blank"><input class="span4" style="color:blue; -user-select: none; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -ms-user-select:none; -moz-user-select: none;" size="5" value="pavaninkumar [at] gmail [dot] com" readonly="disabled" type="text" /></a></td></tr><br>
                         
                         <tr><td><span style="font-size: 20px;" class="icon-envelope"></span> &nbsp; </td>
-                        <td><a href="mailto:me11b053@smail.iitm.ac.in" target="_blank"><input class="form-control" style="color:blue; -user-select: none; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -ms-user-select:none; -moz-user-select: none;" size="5" value="me11b053 [at] smail [dot] iitm [dot] ac [dot] in" readonly="disabled" type="text" /></td></tr>
+                        <td><a href="mailto:me11b048@smail.iitm.ac.in" target="_blank"><input class="span4" style="color:blue; -user-select: none; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -ms-user-select:none; -moz-user-select: none;" size="5" value="me11b048 [at] smail [dot] iitm [dot] ac [dot] in" readonly="disabled" type="text" /></td></tr>
 
-                        <a href="http://www.quora.com/Sai-Prabhakar-2" target="_blank">http://www.quora.com/Sai-Prabhakar-2<a><br>	
 		</div>
           </section>
         </div>
