@@ -42,27 +42,28 @@
         </div>
       </div>
     </div>
-    <div class="container">
+<div class="span0.5">
+</div>    
       <div class="row">
         <div class="span4 sideNav">
-          <ul id="resumeSideNavBar" class="nav nav-pills nav-stacked affix">
+          <ul id="projectsSideNavBar" class="nav nav-pills nav-stacked affix">
             <li class="nav-header">Research Projects</li>
             <li>
-                <a href="#syn">Irradiation Effects on Silicon Carbide</a>
-            </li>
-<!--            <li>
-                <a href="#recog">Online Character recognition</a>
+                <a href="#sic">Irradiation Effects on Silicon Carbide</a>
             </li>
             <li>
-                <a href="#mpc">Model Predictive Control</a>
+                <a href="#ge">Performance Analysis of Inlet Plenum</a>
+            </li>
+	    <li>
+                <a href="#step">Pneumatic Step-Climbing Robot</a>
             </li>
             <li>
-                <a href="#road">Drivable Road area detection</a>
+                <a href="#tpi">Quality Enhancement in Sheet Metal Slitting</a>
             </li>
             <li>
-                <a href="#dead">Dead reckoning</a>
+                <a href="#svp">Tool Path Generation for CNC Operations</a>
             </li>
--->
+
             <li class="nav-header">Competitions</li>
 <!--            <li><a href="#robo">ABU Robocon</a></li>  -->
             <li><a href="#rov">Shaastra Lunar Rover Challenge</a></li>
@@ -71,66 +72,55 @@
 <!--            <li><a href="#itc">ITC Ltd.</a></li>-->
           </ul>
         </div>
-        <div class="span8">
+
+        <div class="span11">
           <div class="page-header">
             <center><h1>Research Projects</small></h1></center>
           </div>
               
-          
-          <section id="syn">
-            <h3>Simulation of Irradiation Effects on Silicon Carbide</h3>
-            <h5>Guide:</h5><p>Prof. Narasimhan Swaminathan, Dept. of Mechanical Engineering, IIT Madras (Jan'14 - present)</p>
+          <section id="sic">
+            <h3>Simulation of Irradiation Effects on Silicon Carbide</h3>(Jan'14 - present)
+	    <div class="row">	
+	    <div class="span7">
+	    <h5>Guide:</h5><p>Prof. Narasimhan Swaminathan, Dept. of Mechanical Engineering, IIT Madras</p>
             <h5>Abstract</h5>
-            <p>
+            <p>Objective is to run molecular dynamic simulations to determine the effects of nuclear radiation on silicon carbide structures	. Concentrated vacancies in the lattice were simulated and the effect on the tensile strength studied. Concentrated interstitials and anti-sites shall also be introduced in the future. The simulations were run using LAMMPS MD simulator, along with OVITO, for lattice visualisation, and Scilab, for post-processing the results.</p></div>
 
-		Objective is to run molecular dynamic simulations to determine the effects of nuclear radiation on silicon carbide structures. Silicon carbide is being considered to replace Zircaloy for the claddings in a nuclear reactor. Claddings are used to enclose nuclear fuel and are hence exposed to high energy neutron radiation. To mimic the effects of neutron radiation, concentrated vacancies were simulated and the effect on the tensile strength studied. Concentrated interstitials and anti-sites shall also be introduced in the future. The simulations were run using LAMMPS MD simulator, along with OVITO, for lattice visualisation, and Scilab for post-processing the results. Below is an image generated in OVITO depicting the plane of failure of a pure SiC crystal under uni-axial tension.
-
-            </p>
-<center>	<img src="Plane_of_Failure_2_cropped.png"> </center>
+<div class="span4"><img src="Plane_of_Failure_2_cropped.png" class="img-rounded">
+<center><p>Plane of failure for a pure SiC crystal under uni-axial tension </p></center>
+ </div>
+	</div>
           </section>
-<!--          <hr class="separator" />
-          <section id="recog">
-            <h3>Developing Character recognition Engine</h3>
-            <h5>Guides</h5><p>Dr.Srinivasa Chakravarthy.V, Computational Neuroscience Lab, IIT Madras (Aug'14 - present)<br>
+	<hr class="separator" />        
+	  <section id="ge">
+            <h3>Performance Analysis of Inlet Plenum</h3>
+            <h5>Guide</h5><p>Mr. R Vidyasagar, Aero-Thermal team, General Electric (Oil & Gas), Bangalore (May'14 - Jul'14)<br>
             <h5>Abstract</h5>
             <p>
-              Objective is to develop engines for Online Character Recognition. We developed recognition engine using SVM with SVTorch. Using shape features extracted from the Strokes and achieved 98.3% accuracy. Currently exploring the possibility of using Neural Networks for the same. Presently with Deep Belief Neural Network, 88.2% accuracy was achieved (Ongoing).
-            </p> -->
-<!--            <h5>Image processing module</h5>-->
-<!--            <ul>-->
-<!--              <li>Developed in C++, using <a href="http://opencv.willowgarage.com" target="_blank">OpenCV libraries</a>.</li>-->
-<!--              <li>Sample gestures recognized:<br></li>-->
-<!--            </ul>-->
-<!--            <div class="row">-->
-<!--              <div class="span3"><img src="img/hand1.png" class="img-rounded"/></div>-->
-<!--              <div class="span3"><img src="img/hand2.png" class="img-rounded"/></div>-->
-<!--              <div class="span3"><img src="img/hand3.png" class="img-rounded"/></div>-->
-<!--            </div>-->
-<!--            <br>-->
-           <!-- 
+              Performed CFD analysis for the inlet plenum of a centrifugal compressor using ICEM CFD and CFX. Also set up a procedure to perform a Design of Experiments (DoE) analysis in Ansys Workbench<copyright />, relating the performance of the plenum to its design specifications, thereby avoiding unnecessary computationally intensive CFD runs.
+            </p>
           </section>
           <hr class="separator" />
-          <section id="mpc">
-            <h3>Improved Model Predictive Control Algorithm for UAVs</h3>
+          <section id="step">
+            <h3>Pneumatic Step-Climbing Robot</h3>
             <h5>Guide</h5>
-            <p>Dr.Alejandro Ramirez-Serrano, AR2S Lab, Univ. of Calgary, Canada (May'14 - Aug'14)</p>
+            <p>Dr. Mahesh V Panchagnula, Centre For Innovation, IIT Madras (Jun'12 - Jul'12)</p>
             <br>
             <h5>Abstract</h5>
-Objective is to decreased the Computational time of a existing MPC navigation algorithm, which takes into account the shape and mass of the UAV through confined 3D environment. Decreased the Computational time by 6.5 times.<br>
-For increasing speed while maintaining accuracy separate methods were developed, for the cases low SNR and high SNR range sensor data.  For low SNR, geometrical approximation by RANSAC, and for high SNR, ecient data structure were used to reasonably approximate the cost function faster.<br><br>
-          <center><img src="img/r.gif"> <br></center>
-          <center><br><em>The MPC Navigation Algorithm at work</em><br></center>
+Objective is to design and develop a pneumatically actuated step-climbing robot. Developed a manually operated robot capable of scaling steps of upto 20 cm height. Also developed a fast, autonomous robot capable of scaling a single step. Additionally, 3 pneumatically actuated clamping mechanisms for round and flat geometries were also designed and implemented. <br><br>
+<!--          <center><img src="img/r.gif"> <br></center>
+          <center><br><em>The MPC Navigation Algorithm at work</em><br></center> -->
           </section>
           <hr class="separator" />
-          
-
-          <section id="road">
-            <h3>Drivable Road area detection </h3>
+          <section id="tpi">
+            <h3>Quality Enhancement in Sheet Metal Slitting</h3>
                 <h5>Guide</h5>
-                <p>Dr.P.V.Maninvannan, IIT Madras (Oct'13 - May'14)</p>
+                <p>Mr. Krishna Srinivasan, Corporate Technology Centre, Tube Investments India (Jun'13 - Jul'14)</p>
                 <h5>Abstract</h5>
                 <p>
-                Surveyed literature and implemented different methods in supervised and unsupervised learning for segmenting drivable road area. In supervised learning, I developed a modified version of Eigenface method. In unsupervised learning, I explored different features like Colour space (RGB, HSB, ATan) and Texture (Haralick and Laws energy measure) with GMM clustering.</p> -->
+                Reviewed literature on methods to improve the end quality of the slitting process of sheet metal. Selected the Roll-slitting process as the rolls obtained are burr-free. Also studied the steel-tube manufacturing processes -- Cold Drawn Welding and Electric Resistance Welding -- used in Tube Products of India.
+		</p>
+          </section>
 <!--            <div class="row">-->
 <!--              <div class="span4">-->
 <!--                  <img src="img/Force_Sensor.jpg" />-->
@@ -150,16 +140,17 @@ For increasing speed while maintaining accuracy separate methods were developed,
               <div class="span3"><img src="img/19.jpg" class="img-rounded"/></div>
               <div class="span3"><img src="img/8.jpg" class="img-rounded"/></div>              
             </div>
-		<em><p><center>After Road Detection</center></p></em>
+		<em><p><center>After Road Detection</center></p></em> -->
 
-          </section>
           <hr class="separator" />
-          <section id="dead">
-            <h3>Algorithm development for Dead reckoning</h3>
+          <section id="svp">
+            <h3>Tool Path Generation for CNC Operations</h3>
             <h5>Guide</h5>
-            <p>Dr. Mahesh V Panchagnula, CFI, IIT Madras (May'12 - Jul'12)</p>
+            <p>Mr. Viswesh Srinivasan, SVP Laser Technologies (Dec'13 - Jan'14)</p>
             <h5>Abstract</h5>
-            <p>Designed and developed a robot of 0.6m.x0.6m capable of following specified path accurately using using Dead Reckoning algorithm with two wheel encoder, while halting in the point at specific check points with was achieved within a distance of 0.03m, while carrying mechanism of varying centre of mass. Additionally I also designed the circuit and implemented PID control system for it.</p> -->
+            <p>Developed an AutoCAD plugin to nest sheet metal by Common Line nesting and Bump nesting methods. Also created a module in VB.NET to read a CAD drawing and generate the path for a CNC end milling tool. An algorithm to offset a given closed polyline, consisting of straight lines and arcs, by a specified distance, was also devised.
+	    </p>
+</section>
 <!--            <table class="table table-bordered table-hover">-->
 <!--              <tr><td>-->
 <!--                Proof of concept can be viewed <a href="files/Smart-Water-System.pdf" target="_blank">here. <i class="icon-download"></i></a>-->
@@ -172,13 +163,14 @@ For increasing speed while maintaining accuracy separate methods were developed,
 <!--              <a href="img/mlwss-sub.png" target="_blank"><img src="img/mlwss-sub.png" /></a>-->
 <!--            </div>-->
 <!--            <p><em>Entry to the GE Edison Challenge 2011</em>-->
-<!--          </section>
+<!--          </section> -->
           <hr class="separator" />
           
           <section id="competition">
             <center><h1>Competitions</h1></center>
             <hr class="separator" />
           </section>
+<!--
           <section id="robo">
             <h3>International Robotics Contest, ABU Robocon</h3>
                       
@@ -199,7 +191,7 @@ For increasing speed while maintaining accuracy separate methods were developed,
           </section>
 -->          <hr class="separator" />
           <section id="rov">
-          <h3>National Level, Shaastra Lunar Rover Challenge</h3>
+          <h3>Shaastra Lunar Rover Challenge</h3>
           <div class="row">
           <div class="span4">
              <p>Objective is to develope a small robot of 0.25m.x0.25m capable of performing the tasks of a rover like communication, live video transmission, collision avoidance and detecting appropriate fags, in an artificial lunar surface.</p>
