@@ -72,24 +72,24 @@
 <!--            <li><a href="#itc">ITC Ltd.</a></li>-->
           </ul>
         </div>
-
-        <div class="span11">
+	<div class="span11">
           <div class="page-header">
             <center><h1>Research Projects</small></h1></center>
           </div>
               
           <section id="sic">
-            <h3>Simulation of Irradiation Effects on Silicon Carbide</h3>(Jan'14 - present)
-	    <div class="row">	
-	    <div class="span7">
-	    <h5>Guide:</h5><p>Prof. Narasimhan Swaminathan, Dept. of Mechanical Engineering, IIT Madras</p>
+            <h3>Simulation of Irradiation Effects on Silicon Carbide</h3>
+<!--	    <div class="row">	
+	    <div class="span7"> -->
+	    <h5>Guide:</h5><p>Dr. Narasimhan Swaminathan, Dept. of Mechanical Engineering, IIT Madras (Jan'14 - present)</p>
             <h5>Abstract</h5>
-            <p>Objective is to run molecular dynamic simulations to determine the effects of nuclear radiation on silicon carbide structures	. Concentrated vacancies in the lattice were simulated and the effect on the tensile strength studied. Concentrated interstitials and anti-sites shall also be introduced in the future. The simulations were run using LAMMPS MD simulator, along with OVITO, for lattice visualisation, and Scilab, for post-processing the results.</p></div>
+            <p>Objective is to run molecular dynamic simulations to determine the effects of nuclear radiation on silicon carbide structures. Concentrated vacancies in the lattice were simulated and the effect on the tensile strength studied. Concentrated interstitials and anti-sites shall also be introduced in the future. The simulations were run using LAMMPS MD simulator, along with OVITO, for lattice visualisation, and Scilab, for post-processing the results.</p> <!--</div>
 
-<div class="span4"><img src="img/Plane_of_Failure_2_cropped.png" class="img-rounded">
+<div class="span4"> --><center>
+<img src="img/Plane_of_Failure_2_cropped.png" class="img-rounded"></center>
 <center><p>Plane of failure for a pure SiC crystal under uni-axial tension </p></center>
- </div>
-	</div>
+ <!--</div>
+	</div>-->
           </section>
 	<hr class="separator" />        
 	  <section id="ge">
@@ -103,13 +103,15 @@
           <hr class="separator" />
           <section id="step">
             <h3>Pneumatic Step-Climbing Robot</h3>
+	<!--<div class="row">
+	<div class="span7">-->
             <h5>Guide</h5>
             <p>Dr. Mahesh V Panchagnula, Centre For Innovation, IIT Madras (Jun'12 - Jul'12)</p>
-            <br>
             <h5>Abstract</h5>
-Objective is to design and develop a pneumatically actuated step-climbing robot. Developed a manually operated robot capable of scaling steps of upto 20 cm height. Also developed a fast, autonomous robot capable of scaling a single step. Additionally, 3 pneumatically actuated clamping mechanisms for round and flat geometries were also designed and implemented. <br><br>
-<!--          <center><img src="img/r.gif"> <br></center>
-          <center><br><em>The MPC Navigation Algorithm at work</em><br></center> -->
+<p>Objective is to design and develop a pneumatically actuated step-climbing robot. Developed a manually operated robot capable of scaling steps of upto 20 cm height. Also developed a fast, autonomous robot capable of scaling a single step. Additionally, 3 pneumatically actuated clamping mechanisms for round and flat geometries were also designed and implemented.</p><!--</div>
+<div class="span4">--><center><img src="img/Project-Pneumatic-Stair-Climber-450x290.jpg" class="img-rounded"></center>
+          <center><p>Our multi-step climbing pneumatic robot</p></center>
+<!--</div></div>-->
           </section>
           <hr class="separator" />
           <section id="tpi">
@@ -145,18 +147,17 @@ Objective is to design and develop a pneumatically actuated step-climbing robot.
           <hr class="separator" />
           <section id="svp">
             <h3>Tool Path Generation for CNC Operations</h3>
-<div class="row">
-<div class="span7">
+<!--<div class="row">
+<div class="span7">-->
             <h5>Guide</h5>
             <p>Mr. Viswesh Srinivasan, SVP Laser Technologies (Dec'13 - Jan'14)</p>
             <h5>Abstract</h5>
             <p>Developed an AutoCAD plugin to nest sheet metal by Common Line nesting and Bump nesting methods. Also created a module in VB.NET to read a CAD drawing and generate the path for a CNC end milling tool. An algorithm to offset a given closed polyline, consisting of straight lines and arcs, by a specified distance, was also devised.
 	    </p>
-</div>
-<div class="span4"><img src="img/Polylines.png" class="img-rounded" /> 
-<center><p>Polylines offset using developed mechanism. The original lines are in red and the offset lines in black. The offset distance is 5mm</p></center>
-</div>
-</div>
+<!--</div>
+<div class="span4">--><center><img src="img/Polylines.png" class="img-rounded" /></center>
+<center><p>Polylines offset by 5mm using developed mechanism. The original lines are in red and the offset lines in black.</p></center>
+<!--</div></div>-->
 </section>
 <!--            <table class="table table-bordered table-hover">-->
 <!--              <tr><td>-->
@@ -171,10 +172,10 @@ Objective is to design and develop a pneumatically actuated step-climbing robot.
 <!--            </div>-->
 <!--            <p><em>Entry to the GE Edison Challenge 2011</em>-->
 <!--          </section> -->
+
           <hr class="separator" />
-          
           <section id="competition">
-            <center><h1>Competitions</h1></center>
+            <center><h2>Competitions</h2></center>
             <hr class="separator" />
           </section>
 <!--	
@@ -196,13 +197,13 @@ Objective is to design and develop a pneumatically actuated step-climbing robot.
  <center><iframe width="420" height="315" src="//www.youtube.com/embed/M6jNqmd_Jek" frameborder="0" allowfullscreen></iframe></center>
 <center><br><em>This is a video of our bot performing at the National Round in Pune, India</em><br></center>            
           </section>
--->          <hr class="separator" />
+      <hr class="separator" /> -->
           <section id="rov">
           <h3>Shaastra Lunar Rover Challenge</h3>
           <div class="row">
           <div class="span7">
-             <p>Objective is to develope a small robot of 0.25m.x0.25m capable of performing the tasks of a rover like communication, live video transmission, collision avoidance and detecting appropriate fags, in an artificial lunar surface.</p>
-<p>Placed Second in National level among over 90 teams.</p>
+             <p>Objective is to develop a small robot of 0.25m.x0.25m capable of performing the tasks of a rover, like communication, live video transmission, collision avoidance and detecting appropriate flags, in an artificial lunar surface.</p>
+<p>Placed second in the national level among over 90 teams.</p>
           </div> 
           <div class="span4"><img src="img/lunar.jpg" class="img-rounded"/>
            
